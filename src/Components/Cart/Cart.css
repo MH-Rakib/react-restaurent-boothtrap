@@ -1,0 +1,30 @@
+.cart_page {
+  padding: 50px 0;
+}
+.cart_item {
+  padding: 15px 30px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin: 15px 0px;
+}
+
+.cart_item_info {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+}
+
+.cart_item_info_delete {
+  color: rgb(255, 0, 64);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cart_to_checkout {
+  padding: 8px 30px;
+  background-color: rgb(255, 0, 64);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}

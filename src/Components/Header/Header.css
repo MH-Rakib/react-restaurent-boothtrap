@@ -1,0 +1,79 @@
+.header_logo {
+  width: 160px;
+}
+
+.loged_in_user {
+  float: left;
+}
+
+.cart {
+  float: left;
+  position: relative;
+  margin-left: 20px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.cart_icon {
+  font-size: 22px;
+  line-height: 30px;
+  color: #222;
+  display: inline;
+}
+
+.cart_count {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  text-align: center;
+  background-color: rgb(255, 64, 112);
+  color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 500;
+  border-radius: 50%;
+  top: 0;
+  left: 15px;
+}
+
+.user_icon {
+  font-size: 30px;
+  margin-bottom: 3px;
+  color: rgb(255, 22, 80);
+  margin-left: 30px;
+}
+
+.user_name {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  line-height: 30px;
+  color: #555;
+}
+
+.login_button {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #222;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #fff;
+  margin-left: 30px;
+}
+
+.signin_button {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgb(255, 22, 80);
+  font-weight: 500;
+  color: #fff;
+}
+
+.login_signin_button {
+  float: left;
+}

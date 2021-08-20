@@ -1,0 +1,60 @@
+.categories {
+  margin: 25px 0;
+}
+.categories ul {
+  list-style-type: none;
+}
+.categories ul li {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.2s all ease;
+  text-transform: capitalize;
+}
+.categories ul li:hover {
+  color: rgb(255, 64, 112);
+}
+.active_category {
+  color: rgb(255, 64, 112);
+}
+
+.rest_category {
+  color: #222;
+}
+.item {
+  margin: 30px;
+  padding: 20px 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.2s all ease;
+  cursor: pointer;
+}
+
+.item:hover {
+  box-shadow: 0 0 20px #f0f0f0;
+}
+
+.item img {
+  margin-bottom: 12px;
+}
+.item .name {
+  font-size: 16px;
+  color: #222;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.item .title {
+  font-size: 14px;
+  color: #777;
+  font-weight: 400;
+}
+
+.item .price {
+  font-size: 18px;
+  color: #222;
+  font-weight: 500;
+  margin-top: 15px;
+}
