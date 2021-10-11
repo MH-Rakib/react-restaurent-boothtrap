@@ -10,6 +10,7 @@ const Item = () => {
   const { menuId } = useParams();
   const [itemData, setItemData] = useState([]);
   const [itemQuantity, setItemQuantity] = useState(0);
+  console.log(itemData);
 
   const { cart } = useContext(UserContext);
   const [cartData, setCartData] = cart;
@@ -28,7 +29,7 @@ const Item = () => {
 
   const addToCart = () => {
     const similarItem = cartData.find((obj) => obj.id === itemData.id);
-    console.log(similarItem);
+    // console.log(similarItem);
 
     if (similarItem) {
       let updatedCart = cartData.filter((obj) => obj.id !== itemData.id);
@@ -40,6 +41,7 @@ const Item = () => {
     } else {
       const data = { ...itemData };
       data.quantity = itemQuantity;
+      console.log(data);
       setCartData([data, ...cartData]);
     }
   };
